@@ -148,7 +148,7 @@ class OTW_Form extends OTW_Component{
 					$html .= '<div id="'.$attributes['id'].'-holder" class="otw-html-area-holder"></div>';
 				break;
 			case 'tmce':
-					$html .= "<div class=\"otw-tmce-form-control\" id=\"".$attributes['id']."-form-control\">";
+					$html .= "<div class=\"otw-tmce-form-control\" id=\"".$attributes['id']."-form-control\" style=\"display: none;\">";
 					$html .= "<input type=\"hidden\" class=\"otw-html-area\" value=\"".$attributes['id']."\" />";
 					
 					if( $attributes['label'] || $attributes['show_empty_label'] ){
@@ -171,7 +171,7 @@ class OTW_Form extends OTW_Component{
 
 				break;
 			default:
-					$html .= "<div class=\"otw-form-control\" id=\"".$attributes['id']."-form-control\" style=\"display: none;\">";
+					$html .= "<div class=\"otw-form-control\" id=\"".$attributes['id']."-form-control\">";
 					$html .= "<input type=\"hidden\" class=\"otw-html-area\" value=\"".$attributes['id']."\" />";
 					
 					if( $attributes['label'] || $attributes['show_empty_label'] ){

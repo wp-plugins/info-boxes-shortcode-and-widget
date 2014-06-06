@@ -31,6 +31,15 @@ function otw_sw_add_shortcode( controler ){
 									jQuery( '#TB_ajaxContent' ).css( 'width', '950px' );
 									jQuery( '#TB_ajaxContent' ).css( 'padding', '0' );
 									
+									otw_setup_html_areas();
+								}
+								if( typeof( otw_tb_remove ) == 'undefined' ){
+									otw_tb_remove = window.tb_remove;
+									tb_remove = function(){
+										
+										otw_close_html_areas();
+										otw_tb_remove();
+									}
 								}
 								
 								jQuery( "#otw-dialog").find( '#otw-shortcode-btn-insert' ).val( otw_sw_get_label( 'Save' ) );
@@ -192,7 +201,15 @@ function otw_sw_settings( shortcode_id, shortcode_number ){
 										}
 										jQuery( '#TB_ajaxContent' ).css( 'width', '950px' );
 										jQuery( '#TB_ajaxContent' ).css( 'padding', '0' );
-										
+										otw_setup_html_areas();
+									}
+									if( typeof( otw_tb_remove ) == 'undefined' ){
+										otw_tb_remove = window.tb_remove;
+										tb_remove = function(){
+											
+											otw_close_html_areas();
+											otw_tb_remove();
+										}
 									}
 									
 									jQuery( "#otw-dialog").find( '#otw-shortcode-btn-insert' ).val( otw_sw_get_label( 'Save' ) );
