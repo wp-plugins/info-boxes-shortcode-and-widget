@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: infobox, info boxes, shortcode, widgets, button, WYSIWYG editor, widget, sidebar
 Requires at least: 3.6
 Tested up to: 3.9.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -85,9 +85,13 @@ Please refer to [online documentation page](http://otwthemes.com/online-document
 
 == Changelog ==
 
+= 1.2 =
+ 
+* Fixed: wp link wrap zindex added
+
 = 1.1 =
 
-* Fixed: Adjustments on the options popup window 
+* Fixed: Adjustments on the options popup window
 
 = 1.0 =
 
