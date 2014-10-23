@@ -3,7 +3,7 @@ Contributors: OTWthemes
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CQH6CMTR42KS2
 Tags: infobox, info boxes, shortcode, widgets, button, WYSIWYG editor, widget, sidebar
 Requires at least: 3.6
-Tested up to: 3.9.1
+Tested up to: 4.0
 Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,7 @@ Create Info boxes. Nice and easy interface. Insert anywhere in your site - page/
 
 == Description ==
 
-Easily create all different kinds of Info Boxes for your WordPress site. Insert Info Boxes anywhere in your site - page/post editor, sidebars, template files. No coding is required. It is all done in a nice and easy interface.
+Easily create all different kinds of Info Boxes for your WordPress site. Insert Info Boxes anywhere in your site - page/ post editor, sidebars, template files. No coding is required. It is all done in a nice and easy interface.
 
 **Info Boxes Options**
 
@@ -35,7 +35,7 @@ Basically Info Boxes can be inserted anywhere in your site
 
 * Page/post WYSIWYG editor by using the buttion in the editor
 * In sidebars by using the OTW Shortcode Widget
-* In template files by using the Info Boxes' shortcode and WP do_shortcode function
+* In template files by using the Info Boxes' shortcode and WordPress do_shortcode function
 
 **Custom styling**
 
