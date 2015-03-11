@@ -12,7 +12,7 @@ Create Info boxes. Nice and easy interface. Insert anywhere in your site - page/
 
 == Description ==
 
-Easily create all different kinds of Info Boxes for your WordPress site. Insert Info Boxes anywhere in your site - page/ post editor, sidebars, template files. No coding is required. It is all done in a nice and easy interface.
+Easily create all different kinds of Info Boxes for your WordPress site. Insert Info Boxes anywhere in your site - page / post editor, sidebars, template files. No coding is required. It is all done in a nice and easy interface.
 
 **Info Boxes Options**
 
