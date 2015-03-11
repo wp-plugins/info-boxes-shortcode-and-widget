@@ -3,8 +3,8 @@ Contributors: OTWthemes
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CQH6CMTR42KS2
 Tags: infobox, info boxes, shortcode, widgets, button, WYSIWYG editor, widget, sidebar
 Requires at least: 3.6
-Tested up to: 4.0
-Stable tag: 1.2
+Tested up to: 4.1
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,10 @@ Please refer to [online documentation page](http://otwthemes.com/online-document
 4. Front-end
 
 == Changelog ==
+
+= 1.3 =
+
+* Updated: include admin css only on post, page and widgets page
 
 = 1.2 =
  
